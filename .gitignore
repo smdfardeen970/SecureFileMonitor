@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+logs/
+monitored_files/
+authorized_files/
+*.log
+audit_report.txt
