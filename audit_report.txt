@@ -1,0 +1,42 @@
+SECURE FILE MONITOR - AUDIT REPORT
+========================================
+Date: 2026-11-16 06:49:14.650535
+
+
+FILE: logs/file_monitor.log
+----------------------------------------
+2026-11-03 00:26:21,114 - FILE CREATED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 00:26:21,118 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 00:26:39,214 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 00:26:50,188 - FILE DELETED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 00:33:43,733 - FILE CREATED: /home/kali/SecureFileMonitor/monitored_files/file1.txt
+2026-11-03 00:33:43,733 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/file1.txt
+2026-11-03 00:33:43,733 - FILE CREATED: /home/kali/SecureFileMonitor/monitored_files/file2.txt
+2026-11-03 00:33:43,733 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/file2.txt
+2026-11-03 00:33:59,223 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/file1.txt
+2026-11-03 00:33:59,223 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/file2.txt
+2026-11-03 00:34:12,982 - FILE DELETED: /home/kali/SecureFileMonitor/monitored_files/file1.txt
+2026-11-03 00:34:12,982 - FILE DELETED: /home/kali/SecureFileMonitor/monitored_files/file2.txt
+2026-11-03 00:36:47,883 - FILE CREATED: /home/kali/SecureFileMonitor/monitored_files/secure.txt
+2026-11-03 00:36:47,883 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/secure.txt
+2026-11-03 00:36:59,096 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/secure.txt
+2026-11-03 01:59:16,842 - FILE CREATED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 01:59:16,849 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 02:04:30,904 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 02:06:38,011 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 02:06:38,011 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-03 02:07:37,095 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-05 01:45:46,618 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-05 01:48:02,759 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-05 01:48:43,456 - FILE DELETED: /home/kali/SecureFileMonitor/monitored_files/test.txt
+2026-11-05 01:50:30,675 - FILE CREATED: /home/kali/SecureFileMonitor/monitored_files/move_test.txt
+2026-11-05 01:50:30,675 - FILE MODIFIED: /home/kali/SecureFileMonitor/monitored_files/move_test.txt
+2026-11-05 01:54:03,495 - FILE MOVED: /home/kali/SecureFileMonitor/monitored_files/move_test.txt -> /home/kali/SecureFileMonitor/monitored_files/backup/move_test.txt
+
+
+FILE: security_alerts.log
+----------------------------------------
+[2026-11-03 02:12:11] SECURITY ALERT: Unauthorized file modification detected!
+
+
+END OF AUDIT REPORT
